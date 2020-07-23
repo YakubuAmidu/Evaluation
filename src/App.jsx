@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App';
 
 class App extends Component {
   render() {
@@ -17,7 +18,7 @@ class App extends Component {
    <input placeholder="New date" />
    <button>Submit</button>
    </div>
-   
+
     </div>
   )
   }
