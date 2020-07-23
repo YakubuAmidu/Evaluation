@@ -12,11 +12,11 @@ class Clock extends Component {
     }
   }
 
-  UNSAFE_componentWillMount() {
+  componentWillMount() {
     this.getTimeUntil(this.props.deadline);
   }
 
-  UNSAFE_componentDidMount() {
+  componentDidMount() {
     setInterval(() => this.getTimeUntil(this.props.deadline), 1000);
   }
 
