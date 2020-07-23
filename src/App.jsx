@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import './App';
+import './App.css';
 
 class App extends Component {
   render() {
     return (
-    <div>
-   <div>Countdown to december 25, 2020</div>
+    <div className="App">
+   <div className="App-title">Countdown to december 25, 2020</div>
 
    <div>
-   <div>14 days</div>
-   <div>30 hours</div>
-   <div>15 minuites</div>
-   <div>20 seconds</div>
+   <div className="clock-days">14 days</div>
+   <div className="clock-hours">30 hours</div>
+   <div className="clock-minuites">15 minuites</div>
+   <div className="clock-seconds">20 seconds</div>
    </div>
 
    <div>
