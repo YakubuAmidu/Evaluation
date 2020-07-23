@@ -27,7 +27,7 @@ class App extends Component {
 
    <div>
    <input placeholder="New date" />
-   <button>Submit</button>
+   <button onClick={() => this.changeDeadline()}>Submit</button>
    </div>
 
     </div>
