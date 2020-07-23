@@ -9,10 +9,14 @@ class App extends Component {
    }
  }
 
+ changeDeadline() {
+   this.setState({ deadline: 'November 25, 2020' });
+ }
+
   render() {
     return (
     <div className="App">
-   <div className="App-title">Countdown to december 25, 2020</div>
+   <div className="App-title">Countdown to {this.state.deadline}</div>
 
    <div>
    <div className="clock-days">14 days</div>
