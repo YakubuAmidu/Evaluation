@@ -8,10 +8,7 @@
   font-size: 50px;
 }
 
-.clock-days {
+.clock-days, .clock-hours, .clock-minuites, .clock-seconds{
   display: inline;
-}
-
-.clock-hours {
-  display: inline;
+  margin: 10px;
 }
