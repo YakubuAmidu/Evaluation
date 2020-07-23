@@ -1,11 +1,11 @@
-import React, { Componenet } from 'react';
+import React, { Component } from 'react';
 import './App.css';
 
-class Clock extends Componenet {
+class Clock extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      days: 0;,
+      days: 0,
       hours: 0,
       minuites: 0,
       seconds: 0
