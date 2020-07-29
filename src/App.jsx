@@ -19,6 +19,7 @@ class App extends Component {
   render() {
     return (
     <div className="App">
+    <h2 className="Evaluator">EVALUATOR</h2>
    <div className="App-title">Countdown to {this.state.deadline}</div>
 
    <Clock deadline={this.state.deadline} />
@@ -30,7 +31,7 @@ class App extends Component {
    />
 
    <Button
-   className="deadline-input"
+   className="Deadline-input"
    onClick={() => this.changeDeadline()}>
    Submit
    </Button>
